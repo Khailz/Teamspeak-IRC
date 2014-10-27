@@ -1,7 +1,5 @@
 __author__ = 'Khailz'
 
-__author__ = 'Khailz'
-
 user_nam = raw_input('username> ')
 filename = raw_input('> ')
 target = open(filename, 'w')
