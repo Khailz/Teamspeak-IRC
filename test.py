@@ -1,6 +1,10 @@
 __author__ = 'Khailz'
 
-user_nam = raw_input('username> ')
-filename = raw_input('> ')
-target = open(filename, 'w')
-target.write('user_name= %s' % user_nam)
+import telnetlib
+
+HOST = "unlightedgaming.com"
+port = 10011
+
+tn = telnetlib.Telnet(HOST)
+
+print tn.read_all()
