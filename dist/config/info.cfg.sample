@@ -1,0 +1,5 @@
+[CONFIG]
+username= "query username"
+password= "password"
+host= "hostname"
+port= "query port"
